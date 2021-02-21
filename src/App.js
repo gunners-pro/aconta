@@ -1,5 +1,7 @@
+import Routes from './routes/Routes';
+
 function App() {
-  return <h1>Aconta</h1>;
+  return <Routes />;
 }
 
 export default App;
