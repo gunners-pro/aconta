@@ -15,7 +15,11 @@ function Home() {
             <img src={logoInvoice} alt="plano de fundo" />
             <h4>Expense</h4>
           </div>
-          <button type="button">Login</button>
+          <a href="teste">
+            <span />
+            <span />
+            Login
+          </a>
         </Header>
       </Content>
     </Container>
