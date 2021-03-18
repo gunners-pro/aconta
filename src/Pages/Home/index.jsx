@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Container, Content, Header, MainSection } from './styles';
 
@@ -16,11 +17,11 @@ function Home() {
             <img src={logo} alt="plano de fundo" />
             <h4>conta</h4>
           </div>
-          <a href="teste">
+          <Link to="/auth">
             <span />
             <span />
-            Login
-          </a>
+            Começar
+          </Link>
         </Header>
         <MainSection>
           <section>

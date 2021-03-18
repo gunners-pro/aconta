@@ -89,7 +89,7 @@ export const Header = styled.header`
     position: absolute;
     display: block;
     background: #be2a32;
-    transition: transform ease 0.075s;
+    transition: transform ease 0.15s;
   }
 
   > a span:nth-child(1) {
@@ -114,7 +114,7 @@ export const Header = styled.header`
     height: 3px;
     transform: scaleX(0);
     transform-origin: left;
-    transition-delay: 0.1s;
+    transition-delay: 0.15s;
   }
 
   > a:hover span:nth-child(2) {
